@@ -1,0 +1,52 @@
+.container {
+    background: url("../images/20-ai.jpg");
+    height: 100vh;
+    position: relative;
+}
+
+h1 {
+    color: #EF7C8E;
+    float: left;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+#welcome-text {
+    color: white;
+    font-size: 64px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #EF7C8E;
+}
+#under-welcome {
+    color: white;
+    font-weight: bold;
+    font-size: 58px;
+    margin-top: 20px;
+}
+p {
+    color: white;
+    font-size: 24px;
+    margin-top: 10px;
+    text-shadow: 2px 2px 5px #EF7C8E;
+}
+#btn-signIn {
+    background-color: #EF7C8E;
+    float: right;
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 5px 20px;
+    margin-right: 100px;
+    box-shadow: 1px 1px 10px 3px #888888;
+}
+#btn-start {
+    background-color: #EF7C8E;
+    font-size: 28px;
+    margin-top: 20px;
+    box-shadow: 1px 1px 10px 3px #888888;
+}
+.center-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
