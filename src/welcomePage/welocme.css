@@ -25,7 +25,7 @@ h1 {
     font-size: 58px;
     margin-top: 20px;
 }
-p {
+.welcome-slug {
     color: white;
     font-size: 24px;
     margin-top: 10px;
@@ -45,6 +45,11 @@ p {
     font-size: 28px;
     margin-top: 20px;
     box-shadow: 1px 1px 10px 3px #888888;
+    text-decoration: none !important;
+}
+
+#sign-up-link {
+    text-decoration: none !important;
 }
 .center-content {
     position: absolute;
