@@ -26,12 +26,25 @@ p {
     font-size: 16px;
     opacity: 0.6;
 }
+
 #reset-password {
-    text-decoration: none;
     color: #426869;
     width: 350px;
     text-align: right;
+    padding-top: 5px;
+    cursor: pointer;
+    text-decoration: none;
 }
+
+
 .create-account {
     margin-top: 50px;
+}
+#create-account {
+    cursor:pointer;
+    text-decoration: none;
+    color: #426869;
+}
+#create-account:hover,#reset-password:hover {
+    color: #07191a;
 }
