@@ -2,7 +2,7 @@ import React from 'react';
 import { Grid } from '@mui/material';
 import { LeftSide } from './LeftSide';
 import RightSide from './RightSide';
-import MainPage from '../components/main/MainPage';
+import MainPage from '../main/MainPage';
 import { useSelector } from 'react-redux';
 
 
@@ -12,14 +12,15 @@ const SignIn = () => {
     <>
     {user.currentUser.succes ? <MainPage />:
     <Grid container spacing={0}>
-        <Grid item md={6}>
+        <Grid item xs={0} sm={4} md={6}>
             <LeftSide />
         </Grid>
-        <Grid item md={6}>
+        <Grid item xs={12} sm={8} md={6}>
             <RightSide />
         </Grid>
     </Grid>
-  }</>
+  }
+  </>
   )
 }
 

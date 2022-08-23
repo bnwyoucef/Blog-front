@@ -35,7 +35,11 @@ p {
     cursor: pointer;
     text-decoration: none;
 }
-
+#error-msg {
+    color: rgb(255, 1, 1);
+    font-weight: 600;
+    margin: 20px 0px;
+}
 
 .create-account {
     margin-top: 50px;
@@ -43,8 +47,10 @@ p {
 #create-account {
     cursor:pointer;
     text-decoration: none;
-    color: #426869;
+    color: #4b6566;
+    text-decoration: underline;
 }
+
 #create-account:hover,#reset-password:hover {
     color: #07191a;
 }

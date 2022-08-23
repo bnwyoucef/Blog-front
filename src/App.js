@@ -1,9 +1,9 @@
 import React from "react";
 import "./App.css";
-import Welcome from "./welcomePage/Welcome";
+import Welcome from "./components/welcomePage/Welcome";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import SignIn from "./signIn/SignIn";
-import SignUp from "./signUp/SignUp";
+import SignIn from "./components/signIn/SignIn";
+import SignUp from "./components/signUp/SignUp";
 
 function App() {
   return (
