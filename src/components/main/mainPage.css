@@ -1,0 +1,9 @@
+.main-carousel {
+    background-image: url('../../images/20-ai.jpg');
+    height: 400px;
+    width: 100vw;
+}
+
+.main-carousel h1 {
+    text-align: center;
+}

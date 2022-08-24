@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Navbar from './Navbar';
+import './mainPage.css'
 
 const MainPage = () => {
   return (
     <div>
-      <h1>Main page</h1>
+      <Navbar />
+      <div className="main-carousel">
+        <h1>Blog</h1>
+      </div>
     </div>
   )
 }

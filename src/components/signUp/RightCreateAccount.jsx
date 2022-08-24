@@ -72,6 +72,7 @@ const RightCreateAccount = () => {
         <form className="signin-form" onSubmit={handleSignInSubmit}>
             <h2>Sign Up</h2>
             <TextField
+                required
                 id="standard-password-input"
                 label="Email"
                 type="text"
@@ -84,6 +85,7 @@ const RightCreateAccount = () => {
             <FormControl sx={{ m: 1, width: '350px' }} variant="standard">
             <InputLabel htmlFor="standard-adornment-password">Password</InputLabel>
             <Input
+                required
                 id="standard-adornment-password"
                 type={values.showPassword ? 'text' : 'password'}
                 value={password}
