@@ -38,8 +38,8 @@ const NavBar = () => {
     };
 
   return (
-    <AppBar position="static" style={{backgroundColor: 'white',boxShadow: 'none'}}>
-      <Container maxWidth="xl">
+    <AppBar position="fixed" style={{backgroundColor: 'white',boxShadow: 'none'}}>
+      <Container maxWidth="100vw">
         <Toolbar disableGutters>
           <Typography
             variant="h6"

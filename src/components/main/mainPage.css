@@ -1,9 +1,30 @@
-.main-carousel {
-    background-image: url('../../images/20-ai.jpg');
-    height: 400px;
-    width: 100vw;
+.main-container {
+    height: 500px;
+    background-color: #07191a;
+    position: relative;
 }
 
-.main-carousel h1 {
-    text-align: center;
+.main-container img {
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
+
+.main-container p {
+    font-size: 38px;
+    color: white;
+    font-weight: bold;
+    opacity: 1;
+    padding: 20px;
+}
+#card-container {
+    background-color: rgba(7, 25, 26, 0.1);
+}
+
+#card-item {
+    margin: 50px;
+}
+
